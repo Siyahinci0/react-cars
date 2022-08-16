@@ -41,6 +41,11 @@ const Menu = () => {
                 <a className="nav-link">Bentley</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/carsTwo">
+                <a className="nav-link">carsTwo</a>
+              </Link>
+            </li>
             
             
           </ul>

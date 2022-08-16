@@ -3,7 +3,7 @@ import Home from "./home";
 import Cars from "./cars";
 import Aboutus from "./aboutus";
 import Gallery from "./gallery";
-
+import CarsTwo from "./carsTwo";
 
 
 const App = ({ pageName }) => {
@@ -44,6 +44,11 @@ const App = ({ pageName }) => {
                 carPrice={'15.799.000 TL'}
                 carModel={'continental'}
                 display={true} />;
+
+        if (pageName === 'carsTwo') return <CarsTwo />;
+            
+
+                
 
         if(pageName == 'Cars')
         return <Cars />;

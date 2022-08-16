@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Menu from "./menu";
 import Header from "./header";
 import cars from "./cars-data";
